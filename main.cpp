@@ -44,7 +44,7 @@ void insertion(vector<int>& numbers, int idx)
         numbers[j + 1] = numbers[j];
         j--;
     }
-    numbers[j + 1];
+    numbers[j + 1] = key;
 }
 
 // ============================================================
